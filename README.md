@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align="center">
+  NextJS Template by Story 🚀
+  <image src="https://img.shields.io/badge/version-1.0.0-white?labelColor=FFFFFF&color=blue&style=flat"/>
+</h1>
 
-## Getting Started
+<div align="center">
+  <image
+    src="https://raw.githubusercontent.com/StoryTW/vite-template-by-story/c1ceba4b0583a5f3de16fe424be2815eeae3912c/public/vite.svg" 
+    height="150px"
+    width="150px"
+    alt="nextjs-logo"
+  />
+</div>
 
-First, run the development server:
+<h2 align="center">NextJS + TypeScript + SASS + ESLint + Prettier</h2>
 
-```bash
+<div align="center">
+  </a> 
+    <a href="https://nextjs.org/">
+    <image src="https://img.shields.io/static/v1?label=next.js&message=16.1.6&style=for-the-badge&labelColor=ffffff&logo=nextjs&color=0070F3"/>
+  </a>
+  <a href="https://reactjs.org/">
+    <image src="https://img.shields.io/static/v1?label=React&message=19.2.3&style=for-the-badge&labelColor=FFFFFF&logo=react&color=61DAFB"/>
+  </a> 
+  <a href="https://www.typescriptlang.org/">
+    <image src="https://img.shields.io/static/v1?label=TypeScript&message=5&style=for-the-badge&labelColor=FFFFFF&logo=typescript&color=3178C6"/>
+  <a href="https://sass-lang.com/">
+    <image src="https://img.shields.io/static/v1?label=SASS&message=1.97.3&style=for-the-badge&labelColor=FFFFFF&logo=sass&color=BF3F7F"/>
+  </a>
+</div>
+
+## 📌 Introduction
+
+A starter [NextJS](https://nextjs.org/) template having:
+
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [SASS](https://sass-lang.com/)
+- [modern-normalize](https://www.npmjs.com/package/modern-normalize)
+- [clsx](https://www.npmjs.com/package/clsx)
+- [@svgr/webpack](https://www.npmjs.com/package/@svgr/webpack)
+- Multiple [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/) plugins installed
+
+> I have already implemented some recommended configurations in `eslint.config.js`, `.prettierrc`. Feel free to edit them if you have your own preferences.
+
+## 📦 Using this template
+
+You can create a new project in several ways.
+
+### ✅ Option 1 — GitHub UI
+
+1. Click the **Use this template** button on this repository
+2. Enter your new repository name
+3. Clone your new repo:
+
+```sh
+git clone https://github.com/YOUR_USERNAME/YOUR_NEW_REPO.git
+cd YOUR_NEW_REPO
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### ✅ Option 2 — GitHub CLI
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+gh repo create my-app --template StoryTW/vite-template-by-story
+cd my-app
+npm install
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### ✅ Option 3 — degit
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```sh
+npx degit StoryTW/vite-template-by-story my-app
+cd my-app
+npm install
+npm run dev
+```

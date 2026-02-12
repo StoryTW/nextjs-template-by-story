@@ -5,9 +5,9 @@
 
 <div align="center">
   <image
-    src="https://raw.githubusercontent.com/StoryTW/vite-template-by-story/c1ceba4b0583a5f3de16fe424be2815eeae3912c/public/vite.svg" 
+    src="https://raw.githubusercontent.com/StoryTW/nextjs-template-by-story/3347d8a0f118b5db067fe13cf782a3e9c99e0cec/public/next.svg" 
+    width="400px"
     height="150px"
-    width="150px"
     alt="nextjs-logo"
   />
 </div>
@@ -63,7 +63,7 @@ npm run dev
 ### ✅ Option 2 — GitHub CLI
 
 ```sh
-gh repo create my-app --template StoryTW/vite-template-by-story
+gh repo create my-app --template StoryTW/nextjs-template-by-story
 cd my-app
 npm install
 npm run dev
@@ -72,7 +72,7 @@ npm run dev
 ### ✅ Option 3 — degit
 
 ```sh
-npx degit StoryTW/vite-template-by-story my-app
+npx degit StoryTW/nextjs-template-by-story my-app
 cd my-app
 npm install
 npm run dev

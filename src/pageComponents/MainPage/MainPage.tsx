@@ -32,7 +32,7 @@ export const MainPage = () => {
         </div>
 
         <div className={styles.badgeWrapper}>
-          <a href='https://github.com/StoryTW/vite-template-by-story' target='_blank'>
+          <a href='https://github.com/StoryTW/nextjs-template-by-story' target='_blank'>
             <Image
               src='https://img.shields.io/badge/github-repo-blue?logo=github&labelColor=white&color=blue&logoColor=000000'
               alt='github-badge'

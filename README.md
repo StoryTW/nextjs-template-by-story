@@ -1,6 +1,6 @@
 <h1 align="center">
   NextJS Template by Story 🚀
-  <image src="https://img.shields.io/badge/version-1.0.0-white?labelColor=FFFFFF&color=blue&style=flat"/>
+  <image src="https://img.shields.io/badge/version-1.1.0-white?labelColor=FFFFFF&color=blue&style=flat"/>
 </h1>
 
 <div align="center">
@@ -17,15 +17,15 @@
 <div align="center">
   </a> 
     <a href="https://nextjs.org/">
-    <image src="https://img.shields.io/static/v1?label=next.js&message=16.1.6&style=for-the-badge&labelColor=ffffff&logo=nextjs&color=0070F3"/>
+    <image src="https://img.shields.io/static/v1?label=next.js&message=16.2.3&style=for-the-badge&labelColor=ffffff&logo=nextjs&color=0070F3"/>
   </a>
   <a href="https://reactjs.org/">
-    <image src="https://img.shields.io/static/v1?label=React&message=19.2.3&style=for-the-badge&labelColor=FFFFFF&logo=react&color=61DAFB"/>
+    <image src="https://img.shields.io/static/v1?label=React&message=19.2.5&style=for-the-badge&labelColor=FFFFFF&logo=react&color=61DAFB"/>
   </a> 
   <a href="https://www.typescriptlang.org/">
-    <image src="https://img.shields.io/static/v1?label=TypeScript&message=5&style=for-the-badge&labelColor=FFFFFF&logo=typescript&color=3178C6"/>
+    <image src="https://img.shields.io/static/v1?label=TypeScript&message=5.9.3&style=for-the-badge&labelColor=FFFFFF&logo=typescript&color=3178C6"/>
   <a href="https://sass-lang.com/">
-    <image src="https://img.shields.io/static/v1?label=SASS&message=1.97.3&style=for-the-badge&labelColor=FFFFFF&logo=sass&color=BF3F7F"/>
+    <image src="https://img.shields.io/static/v1?label=SASS&message=1.99.0&style=for-the-badge&labelColor=FFFFFF&logo=sass&color=BF3F7F"/>
   </a>
 </div>
 
@@ -39,9 +39,7 @@ A starter [NextJS](https://nextjs.org/) template having:
 - [modern-normalize](https://www.npmjs.com/package/modern-normalize)
 - [clsx](https://www.npmjs.com/package/clsx)
 - [@svgr/webpack](https://www.npmjs.com/package/@svgr/webpack)
-- Multiple [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/) plugins installed
-
-> I have already implemented some recommended configurations in `eslint.config.js`, `.prettierrc`. Feel free to edit them if you have your own preferences.
+- My custom [ESLint](https://eslint.org/) config [@storytw/eslint-config](https://www.npmjs.com/package/@storytw/eslint-config) installed with [@stylistic](https://eslint.style/rules)
 
 ## 📦 Using this template
 

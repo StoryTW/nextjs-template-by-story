@@ -13,7 +13,7 @@ const nextConfig: NextConfig = {
     },
   },
   sassOptions: {
-    additionalData: `@use "@/assets/styles/mixins" as *;`,
+    additionalData: '@use "@/assets/styles/mixins" as *;',
   },
   images: {
     remotePatterns: [

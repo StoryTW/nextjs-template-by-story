@@ -43,7 +43,7 @@ export const MainPage = () => {
             />
           </a>
           <Image
-            src='https://img.shields.io/badge/version-1.1.0-white?labelColor=FFFFFF&color=green&style=flat'
+            src='https://img.shields.io/badge/version-1.2.0-white?labelColor=FFFFFF&color=green&style=flat'
             alt='version-badge'
             width={90}
             height={20}
@@ -56,7 +56,7 @@ export const MainPage = () => {
         <div className={styles.stack}>
           <a href='https://nextjs.org/'>
             <Image
-              src='https://img.shields.io/static/v1?label=next.js&message=16.2.3&style=for-the-badge&labelColor=ffffff&logo=nextjs&color=0070F3'
+              src='https://img.shields.io/static/v1?label=next.js&message=16.2.4&style=for-the-badge&labelColor=ffffff&logo=nextjs&color=0070F3'
               alt='nextjs-badge'
               width={141}
               height={28}
@@ -74,7 +74,7 @@ export const MainPage = () => {
           </a>
           <a href='https://www.typescriptlang.org/'>
             <Image
-              src='https://img.shields.io/static/v1?label=TypeScript&message=5.9.3&style=for-the-badge&labelColor=FFFFFF&logo=typescript&color=3178C6'
+              src='https://img.shields.io/static/v1?label=TypeScript&message=6.0.3&style=for-the-badge&labelColor=FFFFFF&logo=typescript&color=3178C6'
               alt='ts-badge'
               width={147}
               height={28}

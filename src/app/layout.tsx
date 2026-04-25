@@ -1,10 +1,10 @@
 import { ReactNode } from 'react';
 import { Geist, Inter } from 'next/font/google';
 
-import type { Metadata, Viewport } from 'next';
-
 import 'modern-normalize/modern-normalize.css';
 import '@/assets/styles/index.scss';
+
+import type { Metadata, Viewport } from 'next';
 
 interface IRootLayout {
   readonly children: ReactNode;

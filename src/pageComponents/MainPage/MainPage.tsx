@@ -5,6 +5,12 @@ import Image from 'next/image';
 
 import styles from './MainPage.module.scss';
 
+const TEMPLATE_VERSION = '1.3.0';
+const REACT_VERSION = '19.3.0';
+const TS_VERSION = '6.0.3';
+const NEXTJS_VERSION = '16.3.8';
+const SASS_VERSION = '1.105.1';
+
 export const MainPage = () => {
   return (
     <main>
@@ -43,7 +49,7 @@ export const MainPage = () => {
             />
           </a>
           <Image
-            src='https://img.shields.io/badge/version-1.2.0-white?labelColor=FFFFFF&color=green&style=flat'
+            src={`https://img.shields.io/badge/version-${TEMPLATE_VERSION}-white?labelColor=FFFFFF&color=green&style=flat`}
             alt='version-badge'
             width={90}
             height={20}
@@ -56,7 +62,7 @@ export const MainPage = () => {
         <div className={styles.stack}>
           <a href='https://nextjs.org/'>
             <Image
-              src='https://img.shields.io/static/v1?label=next.js&message=16.2.4&style=for-the-badge&labelColor=ffffff&logo=nextjs&color=0070F3'
+              src={`https://img.shields.io/static/v1?label=next.js&message=${NEXTJS_VERSION}&style=for-the-badge&labelColor=ffffff&logo=nextjs&color=0070F3`}
               alt='nextjs-badge'
               width={141}
               height={28}
@@ -65,7 +71,7 @@ export const MainPage = () => {
           </a>
           <a href='https://reactjs.org/'>
             <Image
-              src='https://img.shields.io/static/v1?label=React&message=19.2.5&style=for-the-badge&labelColor=FFFFFF&logo=react&color=61DAFB'
+              src={`https://img.shields.io/static/v1?label=React&message=${REACT_VERSION}&style=for-the-badge&labelColor=FFFFFF&logo=react&color=61DAFB`}
               alt='react-badge'
               width={147}
               height={28}
@@ -74,7 +80,7 @@ export const MainPage = () => {
           </a>
           <a href='https://www.typescriptlang.org/'>
             <Image
-              src='https://img.shields.io/static/v1?label=TypeScript&message=6.0.3&style=for-the-badge&labelColor=FFFFFF&logo=typescript&color=3178C6'
+              src={`https://img.shields.io/static/v1?label=TypeScript&message=${TS_VERSION}&style=for-the-badge&labelColor=FFFFFF&logo=typescript&color=3178C6`}
               alt='ts-badge'
               width={147}
               height={28}
@@ -83,7 +89,7 @@ export const MainPage = () => {
           </a>
           <a href='https://sass-lang.com/'>
             <Image
-              src='https://img.shields.io/static/v1?label=SASS&message=1.99.0&style=for-the-badge&labelColor=FFFFFF&logo=sass&color=BF3F7F'
+              src={`https://img.shields.io/static/v1?label=SASS&message=${SASS_VERSION}&style=for-the-badge&labelColor=FFFFFF&logo=sass&color=BF3F7F`}
               alt='sass-badge'
               width={140}
               height={28}
